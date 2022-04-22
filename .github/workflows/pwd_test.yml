@@ -29,6 +29,5 @@ jobs:
       - name: Run a one-line script
         run: |
           pip install cx_Freeze
-          pip install PyInstaller==4.1
-          pip install PySide2==5.15.2
-          pip install matplotlib==3.3.2
+          pip install -r requirements.txt
+          pip freeze
